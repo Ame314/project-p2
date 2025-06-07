@@ -32,7 +32,7 @@ input, select, button {
 }
 
 button {
-  background-color: #3498db;
+  background-color: #713b90;
   color: white;
   border: none;
   cursor: pointer;
@@ -40,11 +40,11 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #8765ba;
 }
 
 button:disabled {
-  background-color: #95a5a6;
+  background-color: #89a6a9;
   cursor: not-allowed;
 }
 
@@ -58,8 +58,8 @@ ul {
 }
 
 li {
-  background: #ffffff;
-  padding: 10px;
+  background: #bfb4e2;
+  padding: 4px;
   margin-bottom: 10px;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
