@@ -6,9 +6,7 @@ function Saludo({ nombre }) {
   return <p>Hola, {nombre}! Bienvenido a React.</p>;
 }
 
-function Despedida({ nombre }) {
-  return <p>Adiós, {nombre}. ¡Hasta la próxima!</p>;
-}
+
 
 function Props() {
   return (
@@ -93,7 +91,7 @@ function Perfil({ nombre, edad, esAdmin }) {
     <div style={{ border: '1px solid #ddd', borderRadius: '8px', padding: '1rem', marginBottom: '1rem' }}>
       <h4>{nombre}</h4>
       <p>Edad: {edad}</p>
-      {esAdmin && <p style={{ color: 'green' }}>✅ Usuario administrador</p>}
+      {esAdmin && <p style={{ color: 'green' }}> Usuario administrador</p>}
     </div>
   );
 }
