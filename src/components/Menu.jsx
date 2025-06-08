@@ -24,6 +24,9 @@ function Menu({ setPantalla }) {
     { id: 'viaje', nombre: 'Costo de Viaje' },
     { id: 'array', nombre: 'Recorrer Array' },
     { id: 'speech', nombre: 'Memorizar Speech' },
+    { id: 'calculadora', nombre: 'Calculadora' },
+    { id: 'adivina-numero', nombre: 'Adivina el Número' },
+    { id: 'quiz', nombre: 'Quiz' },
   ];
 
   return (

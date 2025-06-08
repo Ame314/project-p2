@@ -22,6 +22,9 @@ import CompMultiple from './pages/CompMultiple';
 import Viaje from './pages/Viaje';
 import ArrayObjetos from './pages/ArrayObjetos';
 import Speech from './pages/Speech';
+import Calculadora from './pages/Calculadora';
+import AdivinaNumero from './pages/AdivinaNumero';
+import Quiz from './pages/Quiz';
 
 
 
@@ -75,6 +78,12 @@ function App() {
         return <ArrayObjetos />;
       case 'speech':
         return <Speech />;
+      case 'calculadora':
+        return <Calculadora />;
+      case 'adivina-numero':
+        return <AdivinaNumero />;
+      case 'quiz':
+        return <Quiz />;
       default:
         return <h2>Pantalla no encontrada</h2>;
     }

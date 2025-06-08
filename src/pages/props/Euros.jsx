@@ -32,7 +32,7 @@ function Euros() {
   return (
     <div>
       <h2>Props - Euros a Dólares</h2>
-      <Conversor tasa={1.07} />
+      <Conversor tasa={1.07} /> {/* Tasa de conversión de Euros a Dólares más adecuada */} 
     </div>
   );
 }

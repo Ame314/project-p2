@@ -3,9 +3,9 @@
   "name": "Tarea ejercicios con react",
   "icons": [
     {
-      "src": "LANZAGUIZANTESELVIS.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "LANZAGUISANTESELVIS.png",
+      "type": "image/png"
+
     }
   ],
   "start_url": ".",
